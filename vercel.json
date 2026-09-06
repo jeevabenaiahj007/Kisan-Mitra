@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/api/chat", "dest": "/api/chat.ts", "methods": ["POST", "OPTIONS"] },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
